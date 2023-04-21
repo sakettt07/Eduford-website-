@@ -1,0 +1,109 @@
+<!-- In this html document i have written all the basic information of the tags and there uses to create the website site of -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="multi.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="multi.html"><img src="/logo.png" ></a>
+            <div class="navlinks" id="newnav">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="/multi.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/course.html">Course</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1> Our Courses</h1>
+    </section>
+    
+    <!-- course -->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing di blanditiis placeat porro enim quia atque! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, minus!</p>
+
+        <div class="row">
+            <div class="coursecolmn">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt et illo doloribus officiis libero quos autem expedita hic, omnis corporis eos blanditiis vitae dicta eum aut facilis, modi nostrum?</p>
+            </div>
+            <div class="coursecolmn">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt et illo doloribus officiis libero quos autem expedita hic, omnis corporis eos blanditiis vitae dicta eum aut facilis, modi nostrum?</p>
+            </div>
+            <div class="coursecolmn">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt et illo doloribus officiis libero quos autem expedita hic, omnis corporis eos blanditiis vitae dicta eum aut facilis, modi nostrum?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- facilitiess -->
+    <section class="facility">
+        <h1>OUR FACILITIES</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus quae fugiat, magni voluptatum cum perferendis incidunt odio? Corrupti, magni.</p>
+        <div class="row">
+            <div class="facicol">
+                <img src="/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, qui. Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div class="facicol">
+                <img src="/basketball.png">
+                <h3>Basketball Training</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, qui. Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div class="facicol">
+                <img src="/cafeteria.png">
+                <h3>World Class Cafeteria</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, qui. Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non maxime quam in accusanlaborum pariatur? <br> Eligendi accusantium perferendis similique ducimus a incidunt omnis?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class=" fa fa-heart"></i>by Saket Gupta</p>
+</section>
+
+
+
+
+    <script>
+        var newnav= document.getElementById("newnav");
+        function showmenu(){
+            newnav.style.right="0";
+        }
+        function hidemenu(){
+            newnav.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

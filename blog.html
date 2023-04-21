@@ -1,0 +1,114 @@
+<!-- In this html document i have written all the basic information of the tags and there uses to create the website site of -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="multi.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="multi.html"><img src="/logo.png" ></a>
+            <div class="navlinks" id="newnav">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="/multi.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/course.html">Course</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1> Our Certificate & Online Programs For 2022-2023</h1>
+    </section>
+    
+    <!-- blog oage content -->
+
+    <section class="blog">
+        <div class="row">
+            <div class="blogleft">
+                <img src="/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2022-2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sint veniam nisi, totam eum aspernatur. Sit, autem totam molestias impedit, consequuntur id animi delectus ducimus architecto officiis quos reiciendis mollitia? sakkd sfds frfsf r</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis cum perspiciatis quod quisquam vero voluptatum officiis, ad dicta fugit expedita dolorem nam ex perferendis voluptas. Quaerat a sint perferendis consectetur dignissimos, velit dolor ullam, animi delectus illum obcaecati porro natus?</p>
+                <br><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas excepturi aliquam sapiente atque natus nisi repudiandae eius doloremque explicabo, quis libero facilis ab itaque quam! Veniam commodi totam eius suscipit non, officiis culpa fuga odio aliquid consequuntur! Eum, obcaecati repudiandae.</p>
+
+                <div class="commentbox">
+                    <h3>Leave a comment</h3>
+                    <form class="form">
+                        <input type="text" placeholder="Enter Name"> 
+                        <input type="email" placeholder="Enter EMail"> 
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="Submit" class="main red">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blogright">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics </span>
+                    <span>234</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>56</span>
+                </div>
+                <div>
+                    <span>Machine learning</span>
+                    <span>77</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>86</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>82</span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+   
+
+
+
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non maxime quam in accusanlaborum pariatur? <br> Eligendi accusantium perferendis similique ducimus a incidunt omnis?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class=" fa fa-heart"></i>by Saket Gupta</p>
+</section>
+
+
+
+
+    <script>
+        var newnav= document.getElementById("newnav");
+        function showmenu(){
+            newnav.style.right="0";
+        }
+        function hidemenu(){
+            newnav.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

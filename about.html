@@ -1,0 +1,76 @@
+<!-- In this html document i have written all the basic information of the tags and there uses to create the website site of -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="multi.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="multi.html"><img src="/logo.png" ></a>
+            <div class="navlinks" id="newnav">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="/multi.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/course.html">Course</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+
+    <!-- contentntttttttt -->
+    <section class="aboutuss">
+        <div class="row">
+            <div class="aboutcol">
+                <h1>We are the world</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum reprehenderit vitae ipsa sint magni, odio ex iure quasi alias atque vel corporis culpa molestiae porro impedit blanditiis asperiores delectus.</p>
+                <a href="" class="main red">EXPLORE NOW</a>
+            </div>
+            <div class="aboutcol">
+                <img src="/about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non maxime quam in accusanlaborum pariatur? <br> Eligendi accusantium perferendis similique ducimus a incidunt omnis?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class=" fa fa-heart"></i>by Saket Gupta</p>
+</section>
+
+
+
+
+    <script>
+        var newnav= document.getElementById("newnav");
+        function showmenu(){
+            newnav.style.right="0";
+        }
+        function hidemenu(){
+            newnav.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
